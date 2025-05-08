@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",         // Kompilētie faili tiks saglabāti dist mapē
+    "rootDir": "./src",         // Kods tiek ņemts no src mapes
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"],           // Iekļauj tikai src mapi
+  "exclude": ["node_modules"]   // Izslēdz node_modules mapi
+}

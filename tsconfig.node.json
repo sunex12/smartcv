@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",         // Kompilētie faili tiks saglabāti dist mapē
+    "module": "CommonJS",       // Izmanto CommonJS moduli
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": ["src"],           // Iekļauj tikai src mapi
+  "exclude": ["node_modules"]   // Izslēdz node_modules mapi
+}
