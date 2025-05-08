@@ -7,20 +7,18 @@ import { UploadResumePay } from "./pages/UploadResumePay";
 import { AnalysisResume } from "./pages/AnalysisResume";
 import { AnalysisResumePay } from "./pages/AnalysisResumePay";
 
+
 export const App = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Homepage />} />
-          <Route path="instruction" element={<Instruction />} />
-          <Route path="upload-resume" element={<UploadResume />} />
-          <Route path="upload-resume-payment" element={<UploadResumePay />} />
-          <Route path="analysis-resume" element={<AnalysisResume />} />
-          <Route
-            path="analysis-resume-payment"
-            element={<AnalysisResumePay />}
-          />
+          <Route path="/pleaseeeeeee" element={<Homepage />} index />
+          <Route path="/instruction" element={<Instruction />} />
+          <Route path="/upload-resume" element={<UploadResume />} />
+          <Route path="/upload-resume-payment" element={<UploadResumePay />} />
+          <Route path="/analysis-resume" element={<AnalysisResume />} />
+          <Route path="/analysis-resume-payment" element={<AnalysisResumePay />} />
         </Route>
       </Routes>
     </>
