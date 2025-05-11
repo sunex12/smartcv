@@ -9,7 +9,7 @@ export const Layout = () => {
   return (
     <Container>
       <header className="flex items-center justify-between mt-10 px-5">
-        {location.pathname === "/" ? (
+        {location.pathname === "/pleaseeeeeee" ? (
           <span className="font-medium text-lg">archive</span>
         ) : (
           <FaArrowLeft
