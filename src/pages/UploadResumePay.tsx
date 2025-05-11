@@ -27,7 +27,7 @@ export const UploadResumePay = () => {
       <p className="text-sm mt-4">
         ⭐ Gives a score from 1 to 10 – how strong your resume is overall.
       </p>
-      <div className=" text-center mt-auto mb-8">
+      <div className="text-center mt-10">
         <Link to="/analysis-resume">
           <PaymentButton>Payment</PaymentButton>
         </Link>

@@ -1,13 +1,12 @@
 {
+  "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./dist",         // Kompilētie faili tiks saglabāti dist mapē
-    "rootDir": "./src",         // Kods tiek ņemts no src mapes
+    "jsx": "react-jsx",
     "module": "ESNext",
     "target": "ESNext",
-    "jsx": "react-jsx",
-    "strict": true,
-    "esModuleInterop": true
+    "isolatedModules": true,
+    "noEmit": true
   },
-  "include": ["src"],           // Iekļauj tikai src mapi
-  "exclude": ["node_modules"]   // Izslēdz node_modules mapi
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
