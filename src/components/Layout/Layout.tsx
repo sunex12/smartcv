@@ -9,7 +9,7 @@ export const Layout = () => {
   return (
     <Container>
       <header className="flex items-center justify-between mt-10 px-5">
-        {location.pathname === "https://sunex12.github.io/pleaseeeeeee/" ? (
+        {location.pathname !== "https://sunex12.github.io/pleaseeeeeee/" ? (
           <Link to="/archive">
             <span className="font-medium text-lg">archive</span>
           </Link>
