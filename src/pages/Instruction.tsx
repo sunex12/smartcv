@@ -7,7 +7,7 @@ export const Instruction = () => {
           <h3 className="text-mainColor font-semibold">
             1. Enter your CV text
           </h3>
-          <p className="text-sm mt-3 ">
+          <p className="text-sm mt-3">
             Upload your CV or type it in the input field.
           </p>
         </article>
@@ -19,7 +19,6 @@ export const Instruction = () => {
             Pay $1 to analyze your resume. SmartCV will review grammar,
             structure, clarity, and formatting.
           </p>
-
           <p className="text-sm mt-4">You’ll receive:</p>
           <p className="text-sm mt-4">
             ✅ Checks for grammar and style errors – corrects language mistakes

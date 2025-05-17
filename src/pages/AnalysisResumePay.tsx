@@ -2,7 +2,7 @@ import { PaymentButton } from "../components/Buttons/PaymentButton";
 
 export const AnalysisResumePay = () => {
   return (
-    <div className="-mt-6 flex flex-col min-h-screen">
+    <div>
       <h2 className="text-center text-2xl font-semibold">Payment</h2>
       <h3 className="text-center text-lg font-semibold mt-9 mb-8">
         1 $ for analysis
@@ -15,7 +15,7 @@ export const AnalysisResumePay = () => {
       <p className="text-sm mt-4">
         📂 Available for download in PDF 📄 or Word 🧾 format
       </p>
-      <div className=" text-center mt-auto mb-8">
+      <div className="text-center mt-56 mb-8">
         <PaymentButton>Payment</PaymentButton>
       </div>
     </div>

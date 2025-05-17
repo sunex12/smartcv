@@ -3,7 +3,7 @@ import { PaymentButton } from "../components/Buttons/PaymentButton";
 
 export const UploadResumePay = () => {
   return (
-    <div className="-mt-6 flex flex-col min-h-screen">
+    <div>
       <h2 className="text-center text-2xl font-semibold">Payment</h2>
       <h3 className="text-center text-lg font-semibold mt-9 mb-8">
         0.50 $ for analysis
@@ -27,7 +27,7 @@ export const UploadResumePay = () => {
       <p className="text-sm mt-4">
         ⭐ Gives a score from 1 to 10 – how strong your resume is overall.
       </p>
-      <div className="text-center mt-10">
+      <div className="text-center mt-8">
         <Link to="/analysis-resume">
           <PaymentButton>Payment</PaymentButton>
         </Link>
