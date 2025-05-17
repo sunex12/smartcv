@@ -1,4 +1,5 @@
 import { PaymentButton } from "../components/Buttons/PaymentButton";
+import { Link } from "react-router-dom";
 
 export const AnalysisResumePay = () => {
   return (
@@ -15,8 +16,10 @@ export const AnalysisResumePay = () => {
       <p className="text-sm mt-4">
         📂 Available for download in PDF 📄 or Word 🧾 format
       </p>
-      <div className="text-center mt-56 mb-8">
-        <PaymentButton>Payment</PaymentButton>
+      <div className="text-center mt-52 mb-8">
+        <Link to="/resume-format">
+          <PaymentButton>Payment</PaymentButton>
+        </Link>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { Outlet, useLocation, useNavigate } from "react-router-dom";
+import { Outlet, useLocation, useNavigate, Link } from "react-router-dom";
 import { Container } from "../Container/Container";
 import { FaArrowLeft } from "react-icons/fa6";
 
@@ -9,8 +9,10 @@ export const Layout = () => {
   return (
     <Container>
       <header className="flex items-center justify-between mt-10 px-5">
-        {location.pathname === "/pleaseeeeeee" ? (
-          <span className="font-medium text-lg">archive</span>
+        {location.pathname === "https://sunex12.github.io/pleaseeeeeee/" ? (
+          <Link to="/archive">
+            <span className="font-medium text-lg">archive</span>
+          </Link>
         ) : (
           <FaArrowLeft
             onClick={() => navigate(-1)}

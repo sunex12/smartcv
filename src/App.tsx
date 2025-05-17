@@ -6,7 +6,8 @@ import { UploadResume } from "./pages/UploadResume";
 import { UploadResumePay } from "./pages/UploadResumePay";
 import { AnalysisResume } from "./pages/AnalysisResume";
 import { AnalysisResumePay } from "./pages/AnalysisResumePay";
-
+import { ResumeFormat } from "./pages/ResumeFormat";
+import { Archive } from "./pages/Archive";
 
 export const App = () => {
   return (
@@ -19,6 +20,8 @@ export const App = () => {
           <Route path="/upload-resume-payment" element={<UploadResumePay />} />
           <Route path="/analysis-resume" element={<AnalysisResume />} />
           <Route path="/analysis-resume-payment" element={<AnalysisResumePay />} />
+          <Route path="/resume-format" element={<ResumeFormat />} />
+          <Route path="/archive" element={<Archive />} />
         </Route>
       </Routes>
     </>
