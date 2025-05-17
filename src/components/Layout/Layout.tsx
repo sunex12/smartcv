@@ -1,15 +1,16 @@
-import { Outlet, useLocation, useNavigate, Link } from "react-router-dom";
+import { Outlet, useLocation, useNavigate, Link, useMatch } from "react-router-dom";
 import { Container } from "../Container/Container";
 import { FaArrowLeft } from "react-icons/fa6";
 
 export const Layout = () => {
   const location = useLocation();
   const navigate = useNavigate();
+  const isHome = useMatch("/pleaseeeeeee")
 
   return (
     <Container>
       <header className="flex items-center justify-between mt-10 px-5">
-        {location.pathname !== "https://sunex12.github.io/pleaseeeeeee/" ? (
+        {isHome ? (
           <Link to="/archive">
             <span className="font-medium text-lg">archive</span>
           </Link>
