@@ -5,16 +5,16 @@ export const Instruction = () => {
 
   return (
     <div className="mt-8">
-      <h2 className="text-center text-2xl font-semibold">{t("instruction.title")}</h2>
+      <h2 className="text-center text-2xl font-bold">{t("instruction.title")}</h2>
       <section className="mt-10 ml-6 mb-9">
         <article className="mt-8">
-          <h3 className="text-mainColor font-semibold">
+          <h3 className="text-mainColor font-bold">
             {t("instruction.titles.1")}
           </h3>
           <p className="text-sm mt-3">{t("instruction.texts.1")}</p>
         </article>
         <article className="mt-8">
-          <h3 className="text-mainColor font-semibold">
+          <h3 className="text-mainColor font-bold">
             {t("instruction.titles.2")}
           </h3>
           <p className="text-sm mt-3">{t("instruction.texts.2.1")}</p>
@@ -27,25 +27,25 @@ export const Instruction = () => {
           <p className="text-sm mt-4">{t("instruction.texts.2.7")}</p>
         </article>
         <article className="mt-8">
-          <h3 className="text-mainColor font-semibold">
+          <h3 className="text-mainColor font-bold">
             {t("instruction.titles.3")}
           </h3>
           <p className="text-sm mt-3">{t("instruction.texts.3")}</p>
         </article>
         <article className="mt-8">
-          <h3 className="text-mainColor font-semibold">
+          <h3 className="text-mainColor font-bold">
             {t("instruction.titles.4")}
           </h3>
           <p className="text-sm mt-3">{t("instruction.texts.4")}</p>
         </article>
         <article className="mt-8">
-          <h3 className="text-mainColor font-semibold">
+          <h3 className="text-mainColor font-bold">
             {t("instruction.titles.5")}
           </h3>
           <p className="text-sm mt-3">{t("instruction.texts.5")}</p>
         </article>
         <article className="mt-8">
-          <h3 className="text-mainColor font-semibold">
+          <h3 className="text-mainColor font-bold">
             {t("instruction.titles.6")}
           </h3>
           <p className="text-sm mt-3">{t("instruction.texts.6")}</p>

@@ -7,8 +7,8 @@ export const UploadResumePay = () => {
 
   return (
     <div>
-      <h2 className="text-center text-2xl font-semibold">{t("payment-upload-resume.title")}</h2>
-      <h3 className="text-center text-lg font-semibold mt-9 mb-8">
+      <h2 className="text-center text-2xl font-bold">{t("payment-upload-resume.title")}</h2>
+      <h3 className="text-center text-lg font-bold mt-9 mb-8">
         {t("payment-upload-resume.sub-title")}
       </h3>
       <p className="text-sm mt-4">{t("instruction.texts.2.2")}</p>

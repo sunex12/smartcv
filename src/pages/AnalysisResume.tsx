@@ -10,7 +10,7 @@ export const AnalysisResume = () => {
 
   return (
     <div className="text-center mt-8">
-      <h2 className="text-center text-2xl font-semibold">
+      <h2 className="text-center text-2xl font-bold">
         {t("analysis-resume.title")}
       </h2>
       <div style={{ width: 120, height: 120, margin: "30px auto" }}>
@@ -25,11 +25,11 @@ export const AnalysisResume = () => {
           })}
         />
       </div>
-      <h3 className="text-center text-xl font-semibold">
+      <h3 className="text-center text-xl font-bold">
         {t("analysis-resume.sub-title")}
       </h3>
 
-      <label className="cursor-pointer text-mainColor font-semibold text-lg mb-8 mt-6 block">
+      <label className="cursor-pointer text-mainColor font-bold text-lg mb-8 mt-6 block">
         {t("analysis-resume.download")}
         <input type="file" className="hidden" />
       </label>

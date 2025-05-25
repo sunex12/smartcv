@@ -10,8 +10,8 @@ export const Homepage = () => {
   return (
     <div className="justify-between px-4 py-8">
       <div className="text-center">
-        <h1 className="text-4xl font-semibold">SmartCV</h1>
-        <p className="text-sm font-medium text-mainColor mt-7">
+        <h1 className="text-4xl font-bold">SmartCV</h1>
+        <p className="text-sm font-semibold text-mainColor mt-7">
           {t("homepage.text")}
         </p>
       </div>
