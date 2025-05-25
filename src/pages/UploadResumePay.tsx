@@ -1,35 +1,35 @@
 import { Link } from "react-router-dom";
 import { PaymentButton } from "../components/Buttons/PaymentButton";
+import { useTranslation } from "react-i18next";
 
 export const UploadResumePay = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h2 className="text-center text-2xl font-semibold">Payment</h2>
+      <h2 className="text-center text-2xl font-semibold">{t("payment-upload-resume.title")}</h2>
       <h3 className="text-center text-lg font-semibold mt-9 mb-8">
-        0.50 $ for analysis
+        {t("payment-upload-resume.sub-title")}
       </h3>
-      <p className="text-sm mt-4">You’ll receive:</p>
+      <p className="text-sm mt-4">{t("instruction.texts.2.2")}</p>
       <p className="text-sm mt-4">
-        ✅ Checks for grammar and style errors – corrects language mistakes and
-        weak phrasing.
+        {t("instruction.texts.2.3")}
       </p>
       <p className="text-sm mt-4">
-        🧱 Evaluates structure and logic – makes sure the sections are
-        well-organized and clear.
+        {t("instruction.texts.2.4")}
       </p>
       <p className="text-sm mt-4">
-        💡 Gives professional improvement tips – what to add, fix, or remove.
+        {t("instruction.texts.2.5")}
       </p>
       <p className="text-sm mt-4">
-        🔍 Analyzes relevance for the job market – checks how strong your resume
-        is for your field.
+        {t("instruction.texts.2.6")}
       </p>
       <p className="text-sm mt-4">
-        ⭐ Gives a score from 1 to 10 – how strong your resume is overall.
+        {t("instruction.texts.2.7")}
       </p>
       <div className="text-center mt-8">
         <Link to="/analysis-resume">
-          <PaymentButton>Payment</PaymentButton>
+          <PaymentButton>{t("payment-upload-resume.button")}</PaymentButton>
         </Link>
       </div>
     </div>

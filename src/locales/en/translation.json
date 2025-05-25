@@ -1,0 +1,76 @@
+{
+  "header": {
+    "archive": "archive"
+  },
+  "homepage": {
+    "text": "Improve your resume with AI. Analyze, fix, and impress — instantly.",
+    "button": "Analyze your resume",
+    "instruction": "Instruction"
+  },
+  "archive": {
+    "title": "Archive",
+    "recommendations": "Recommendations",
+    "resume": "Resume"
+  },
+  "instruction": {
+    "title": "How to use SmartCV",
+    "titles": {
+      "1": "1. Enter your CV text",
+      "2": "2. Resume Analysis – $1",
+      "3": "3. Download your resume – +$1",
+      "4": "4. Multilingual Support",
+      "5": "5. Payments",
+      "6": "6.  Archive"
+    },
+    "texts": {
+      "1": "Upload your CV or type it in the input field.",
+      "2": {
+        "1": "Pay $1 to analyze your resume. SmartCV will review grammar, structure, clarity, and formatting.",
+        "2": "You’ll receive:",
+        "3": "✅ Checks for grammar and style errors – corrects language mistakes and weak phrasing.",
+        "4": "🧱 Evaluates structure and logic – makes sure the sections are well-organized and clear.",
+        "5": "💡 Gives professional improvement tips – what to add, fix, or remove.",
+        "6": "🔍 Analyzes relevance for the job market – checks how strong your resume is for your field.",
+        "7": "⭐ Gives a score from 1 to 10 – how strong your resume is overall."
+      },
+      "3": "After analysis, pay an additional $1 to generate and download the improved resume in PDF or Word format.",
+      "4": "You can change languages ​​by switching the language in the upper right corner. (English and Russian only)",
+      "5": "All payments are one-time and secure. No subscriptions.",
+      "6": "In the Archive section, users can view and re-download all previously analyzed and improved resumes. It’s a personal history of all activity with SmartCV."
+    }
+  },
+  "upload-resume": {
+    "title": "Enter or upload resume",
+    "placeholder": "Enter resume",
+    "or": "Or",
+    "upload": "Upload resume",
+    "button": "Analyze resume for 0.50 $"
+  },
+  "payment-upload-resume": {
+    "title": "Payment",
+    "sub-title": "0.50 $ for analysis",
+    "button": "Payment"
+  },
+  "analysis-resume": {
+    "title": "Analysis results",
+    "sub-title": "Proposal for improvement",
+    "download": "Download",
+    "button": "Download the finished resume for 1 $"
+  },
+  "payment-analysis-resume": {
+    "title": "Payment",
+    "sub-title": "1 $ for resume",
+    "texts": {
+      "1": "You’ll receive:",
+      "2": "🎯 A fully formatted and improved CV",
+      "3": "📝 With all grammar fixes, suggestions & enhancements",
+      "4": "📂 Available for download in PDF 📄 or Word 🧾 format"
+    },
+    "button": "Payment"
+  },
+  "format-resume": {
+    "title": "Improved resume",
+    "pdf": "Download PDF",
+    "word": "Download Word"
+  }
+}

@@ -2,22 +2,26 @@ import { BlueButton } from "../components/Buttons/BlueButton";
 import { OpacityButton } from "../components/Buttons/OpacityButton";
 import { Link } from "react-router-dom";
 
+import { useTranslation } from "react-i18next";
+
 export const Homepage = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="justify-between px-4 py-8">
       <div className="text-center">
         <h1 className="text-4xl font-semibold">SmartCV</h1>
         <p className="text-sm font-medium text-mainColor mt-7">
-          Improve your resume with AI. Analyze, fix, and impress — instantly.
+          {t("homepage.text")}
         </p>
       </div>
 
       <div className="text-center mt-48 space-y-4">
         <Link to="/upload-resume">
-          <BlueButton>Analyze your resume</BlueButton>
+          <BlueButton>{t("homepage.button")}</BlueButton>
         </Link>
         <Link to="/instruction">
-          <OpacityButton>Instruction</OpacityButton>
+          <OpacityButton>{t("homepage.instruction")}</OpacityButton>
         </Link>
       </div>
     </div>

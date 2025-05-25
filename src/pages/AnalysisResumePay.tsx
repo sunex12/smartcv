@@ -1,24 +1,27 @@
 import { PaymentButton } from "../components/Buttons/PaymentButton";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export const AnalysisResumePay = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h2 className="text-center text-2xl font-semibold">Payment</h2>
+      <h2 className="text-center text-2xl font-semibold">{t("payment-analysis-resume.title")}</h2>
       <h3 className="text-center text-lg font-semibold mt-9 mb-8">
-        1 $ for analysis
+        {t("payment-analysis-resume.sub-title")}
       </h3>
-      <p className="text-sm mt-4">You’ll receive:</p>
-      <p className="text-sm mt-4">🎯 A fully formatted and improved CV</p>
+      <p className="text-sm mt-4">{t("payment-analysis-resume.texts.1")}</p>
+      <p className="text-sm mt-4">{t("payment-analysis-resume.texts.2")}</p>
       <p className="text-sm mt-4">
-        📝 With all grammar fixes, suggestions & enhancements
+        {t("payment-analysis-resume.texts.3")}
       </p>
       <p className="text-sm mt-4">
-        📂 Available for download in PDF 📄 or Word 🧾 format
+        {t("payment-analysis-resume.texts.4")}
       </p>
       <div className="text-center mt-52 mb-8">
         <Link to="/resume-format">
-          <PaymentButton>Payment</PaymentButton>
+          <PaymentButton>{t("payment-analysis-resume.button")}</PaymentButton>
         </Link>
       </div>
     </div>
