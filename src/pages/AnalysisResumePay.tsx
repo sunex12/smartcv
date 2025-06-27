@@ -20,7 +20,7 @@ export const AnalysisResumePay = () => {
         {t("payment-analysis-resume.texts.4")}
       </p>
       <div className="text-center mt-52 mb-8">
-        <Link to="/resume-format">
+        <Link to="/smartcv/resume-format">
           <PaymentButton>{t("payment-analysis-resume.button")}</PaymentButton>
         </Link>
       </div>

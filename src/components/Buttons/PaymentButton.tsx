@@ -1,11 +1,17 @@
-import { ReactNode } from "react";
+import { ReactNode, MouseEventHandler } from "react";
 
-export const PaymentButton = ({ children }: { children: ReactNode }) => {
+type PaymentButtonProps = {
+  children: ReactNode;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
+};
+
+export const PaymentButton = ({ children, onClick }: PaymentButtonProps) => {
   return (
-    <>
-      <button className="text-lg font-bold max-w-[200px] w-full py-3 bg-mainColor rounded-lg">
-        {children}
-      </button>
-    </>
+    <button
+      onClick={onClick}
+      className="text-lg font-bold max-w-[200px] w-full py-3 bg-mainColor rounded-lg"
+    >
+      {children}
+    </button>
   );
 };

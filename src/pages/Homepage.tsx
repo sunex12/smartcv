@@ -17,10 +17,10 @@ export const Homepage = () => {
       </div>
 
       <div className="text-center mt-48 space-y-4">
-        <Link to="/upload-resume">
+        <Link to="/smartcv/upload-resume-payment">
           <BlueButton>{t("homepage.button")}</BlueButton>
         </Link>
-        <Link to="/instruction">
+        <Link to="/smartcv/instruction">
           <OpacityButton>{t("homepage.instruction")}</OpacityButton>
         </Link>
       </div>
